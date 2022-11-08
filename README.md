@@ -178,18 +178,32 @@ gcloud compute instances update-from-file VM_NAME \
 sudo apt-get install gcc make 
 ```
 
+-----
 ## 4 Now open the cmpe283-1.c file and make changes to accomodate the new controls.
+
+-----
 ## 5 run make command[ Makefile should be present in the same directory].
 ![Make](https://github.com/kondurunikhil/CMPE_283_virtualisation/blob/main/make.png)
 
+-----
 ## 6 we need to run the command `sudo insmod cmpe283-1.ko`
 ## 7 To view the output need to run dmesg command.
+-----
 ![](https://github.com/kondurunikhil/CMPE_283_virtualisation/blob/main/insmod_dmesg.png)
+
+-----
 ##pinbased controls && procbased controls 
+-----
 ![](https://github.com/kondurunikhil/CMPE_283_virtualisation/blob/main/Pinbased__Procbased_primary.png)
+
+-----
 ##procbased secondary controls  && Exit controls 
+----
 ![](https://github.com/kondurunikhil/CMPE_283_virtualisation/blob/main/procbased_Secondary__Exit.png)
-##Entry controls 
+
+-----
+##entry controls 
+-----
 ![](https://github.com/kondurunikhil/CMPE_283_virtualisation/blob/main/Entry_controls.png)
 
 
